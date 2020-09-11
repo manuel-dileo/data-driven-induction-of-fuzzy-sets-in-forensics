@@ -1,0 +1,6 @@
+{"PesoLesioni20_0": {"c": "0.1", "fuzzifier": "LinearFuzzifier", "k": "LinearKernel()", "score": -0.24673954724300332},
+"AltezzaLesioni20_0": {"c": "0.1", "fuzzifier": "LinearFuzzifier", "k": "LinearKernel()", "score": -0.24766834457676704},
+"BMILesioni20_0" : {"c": "0.1", "fuzzifier": "LinearFuzzifier", "k": "LinearKernel()", "score": -0.24766834457676704},
+"PesoAltezzaLesioni20_0" : {"c": "0.1", "fuzzifier": "LinearFuzzifier", "k": "LinearKernel()", "score": -0.24300443006506578},
+"AllLesioni20_0" : {"c": "0.1", "fuzzifier": "LinearFuzzifier", "k": "LinearKernel()", "score": -0.2560328327370375}
+}

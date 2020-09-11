@@ -1,0 +1,4 @@
+{"df13All_0": {"c": "0.1", "fuzzifier": "LinearFuzzifier", "k": "HyperbolicKernel(1, 0.1)", "score": -0.25960104618955077},
+"df13lesioni_0": {"c": "0.1", "fuzzifier": "LinearFuzzifier", "k": "HyperbolicKernel(1, 0.01)", "score": -0.26965549787458054},
+"df13_coste_0": {"c": "0.1", "fuzzifier": "ExponentialFuzzifier", "k": "GaussianKernel(10)", "score": -0.24711725547411392},
+}

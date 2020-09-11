@@ -1,0 +1,30 @@
+{
+"FuzzyInductor_Esperimento1":{
+	"esperimento": "Df20Variabili_Lesioni20Componenti",
+	"train_err":0.3003663004,
+	"test_err": 0.2564102564,
+	"scaling": "QuantileTransformer(output_distribution='normal')",
+	"dim_reduction": "PCA(n_components=20)",
+	"c_class0": 0.1, 
+	"c_class1": 0.1, 
+	"fuzzifier_class0" : "LinearFuzzifier",
+	"fuzzifier_class1": "ExponentialFuzzifier",
+	"kernel_class0": "LinearKernel()",
+	"kernel_class1":"HyperbolicKernel(1,0)",
+	"defuzzification": "max_membership"
+	},
+"FuzzyInductor_Esperimento2":{
+	"esperimento": "DfPCA2Componenti_Lesioni",
+	"train_err":0.29,
+	"test_err": 0.26,
+	"scaling": "StandardScaler()",
+	"dim_reduction": null,
+	"c_class0": 0.1, 
+	"c_class1": 0.1, 
+	"fuzzifier_class0" : "LinearFuzzifier",
+	"fuzzifier_class1": "ExponentialFuzzifier",
+	"kernel_class0": "HyperbolicKernel(1,0.01)",
+	"kernel_class1":"HyperbolicKernel(1,0.01)",
+	"defuzzification": "alpha-cut(0.45)"
+	}	
+}

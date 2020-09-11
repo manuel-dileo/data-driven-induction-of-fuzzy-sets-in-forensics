@@ -1,0 +1,9 @@
+{"Totale": {"c": "0.1", "fuzzifier": "LinearFuzzifier", "k": "GaussianKernel(0.1)", "score": -0.310562614375031},
+"Totale_0": {"c": "0.1", "fuzzifier": "ExponentialFuzzifier", "k": "GaussianKernel(1)", "score": -0.265832641633083},
+"TotaliDistretti": {"c": "0.1", "fuzzifier": "ExponentialFuzzifier", "k": "HyperbolicKernel(1, 1)", "score": -0.31086975008571677}, 
+"TotaliDistretti_0": {"c": "0.1", "fuzzifier": "ExponentialFuzzifier", "k": "HyperbolicKernel(1, 1)", "score": -0.2562251761973756}, 
+"LesioniPCA10": {"c": "0.1", "fuzzifier": "LinearFuzzifier", "k": "HyperbolicKernel(1, 0.01)", "score": -0.2985745021146935},
+"LesioniPCA10_0": {"c": "0.1", "fuzzifier": "ExponentialFuzzifier", "k": "LinearKernel()", "score":-0.25432388647204857},
+"LesioniPCA20": {"c": "0.1", "fuzzifier": "ExponentialFuzzifier", "k": "HyperbolicKernel(1, 0.01)", "score": -0.2856144725545869},
+"LesioniPCA20_0": {"c": "0.1", "fuzzifier": "LinearFuzzifier", "k": "LinearKernel()", "score": -0.24745388454293823}
+}

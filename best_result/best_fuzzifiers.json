@@ -1,0 +1,9 @@
+{
+"LesioniPCA20":{" QuantileConstantPiecewiseFuzzifier":-0.3537041931,"CrispFuzzifier":-0.4293516561,"ExponentialFuzzifier":-0.2853496942,"LinearFuzzifier":-0.2861218135,"QuantileLinearPiecewiseFuzzifier":-0.3586362643},
+
+"LesioniPCA20_0": {"LinearFuzzifier": -0.24156779126491001, "ExponentialFuzzifier": -0.247453884542938, "CrispFuzzifier": -0.540521494009866, " QuantileConstantPiecewiseFuzzifier": -0.360993657505285, "QuantileLinearPiecewiseFuzzifier": -0.360993657505285}, 
+
+"dfPCA2Lesioni":{" QuantileConstantPiecewiseFuzzifier":-0.4183403805,"CrispFuzzifier":-0.3456659619,"ExponentialFuzzifier":-0.2718610123,"LinearFuzzifier":-0.2748108829,"QuantileLinearPiecewiseFuzzifier":-0.4140974962},
+
+"dfPCA2Lesioni_0":{" QuantileConstantPiecewiseFuzzifier":-0.2461460536,"CrispFuzzifier":-0.2764270613,"ExponentialFuzzifier":-0.2339640461,"LinearFuzzifier":-0.2314793402,"QuantileLinearPiecewiseFuzzifier":-0.2681919524}
+}
