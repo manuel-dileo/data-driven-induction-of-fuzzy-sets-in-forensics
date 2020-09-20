@@ -19,6 +19,7 @@ All'interno di questo repository sono caricati diversi jupyter notebook. Ognuno 
 - experiments\_20feature.ipynb contiene gli esperimenti più significativi sulla vista del dataset ottenuta considerando 20 variabili scelte dai medici legali.
 - experiments\_13feature.ipynb contiene gli esperimenti più significativi sulla vista del dataset ottenuta considerando 13 variabili scelte dai medici legali.
 - experiments\_datasetWithFeatureExtraction.ipynb contiene gli esperimenti svolti su una vista del dataset costruita aggregando le variabili delle lesioni per zone sensate, utilizzando una tecnica di riduzione della dimensionalità come PCA.
+- experiments\_dxsx.ipynb contiene gli esperimenti con le viste del dataset costruite a partire da una suddivisione delle lesioni sulla parte destra o sinistra del corpo.
 - experiments\_umap.ipynb contiene gli esperimenti in cui viene utilizzata UMAP come tecnica di riduzione della dimensionalità.
 - data\_augmentation.ipynb illustra due tecniche per sovracampionare il dataset al fine di migliorare l'accuratezza del modello.
 - datavis.ipynb illustra una possibile visualizzazione del dataset.
