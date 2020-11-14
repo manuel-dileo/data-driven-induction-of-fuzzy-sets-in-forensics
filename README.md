@@ -27,3 +27,5 @@ All'interno di questo repository sono caricati diversi jupyter notebook. Ognuno 
 - defuzzification\_20feature.ipynb contiene la defuzzificazione dei risultati del miglior esperimento sulla vista ottenuta considerando 20 variabili scelte dai medici legali.  
 
 Nel caso foste interessati esclusivamente alla lettura dei migliori risultati del mio lavoro, congiuntamente alle variabili, le tecniche, gli operatori e i parametri del modello di apprendimento per ottenerli, consiglio la visione del notebook best\_result.ipynb.
+## Materiale extra
+Alcune slide di presentazione del progetto sono disponibili [qui](https://docs.google.com/presentation/d/1GH-OsCUFrqLLk-CFYR8U-zfByxMaecM4rlz58dKerbE/edit?usp=sharing).
