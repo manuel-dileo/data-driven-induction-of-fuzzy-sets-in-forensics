@@ -3,9 +3,7 @@ Bachelor's Thesis in Computer Science,
 Advisor: Prof. Dario Malchiodi,  
 University of Milan, 2020.
 ## Overview
-The scope of this repository is to illustrate the work behind my Bachelor's Thesis in Computer Science. The project describes the use of data driven induction of fuzzy sets for a classification problem in the field of forensic medicine.
-
-Questo repository ha lo scopo di illustrare il codice realizzato durante l'esperienza di tirocinio interno triennale presso il dipartimento d'informatica dell'Università Degli Studi di Milano. Il lavoro svolto è descritto e commentato all'interno della tesi di laurea "Induzione di insiemi fuzzy in ambito medico-legale".  
+The scope of this repository is to illustrate the work behind my Bachelor's Thesis in Computer Science. The project describes the use of data driven induction of fuzzy sets for a classification problem in the field of forensic medicine.  
 The problem consists in correctly classifying people, i.e. observations of a sample of which we know personal characteristics and characteristics concerning the injuries on the body suffered in an accident, such as hit by heavy or light vehicles.
 ## Hardware specs
 The experiments were performed with a hp model 15-aw010nl laptop which has the following features:
