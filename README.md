@@ -2,30 +2,32 @@
 Bachelor's Thesis in Computer Science,  
 Advisor: Prof. Dario Malchiodi,  
 University of Milan, 2020.
-## Informazioni generali
+## Overview
+The scope of this repository is to illustrate the work behind my Bachelor's Thesis in Computer Science. The project describes the use of data driven induction of fuzzy sets for a classification problem in the field of forensic medicine.
+
 Questo repository ha lo scopo di illustrare il codice realizzato durante l'esperienza di tirocinio interno triennale presso il dipartimento d'informatica dell'Università Degli Studi di Milano. Il lavoro svolto è descritto e commentato all'interno della tesi di laurea "Induzione di insiemi fuzzy in ambito medico-legale".  
-Il lavoro descrive l’utilizzo dell’induzione di insieme fuzzy per la classificazione di dati in un problema di medicina legale. Il problema consiste nel classificare correttamente delle persone, ovvero delle osservazioni di un campione di cui conosciamo caratteristiche anagrafiche e riguardanti le lesioni sul corpo subite in un incidente, come investite da mezzi pesanti o mezzi leggeri.
-## Specifiche Hardware
-Gli esperimenti sono stati eseguiti con un computer portatile hp modello 15-aw010nl che possiede le seguenti caratteristiche:
-- Processore AMD Quad-Core A10-9600P (2,4 GHz, fino a 3,3 GHz, 2 MB di cache).
-- Memoria 16 GB di SDRAM DDR4-2133 (2 x 8 GB).
-- Scheda Grafica AMD Radeon™ R7 M440 (DDR3 da 2 GB dedicata).  
+The problem consists in correctly classifying people, i.e. observations of a sample of which we know personal characteristics and characteristics concerning the injuries on the body suffered in an accident, such as hit by heavy or light vehicles.
+## Hardware specs
+The experiments were performed with a hp model 15-aw010nl laptop which has the following features:
+- CPU AMD Quad-Core A10-9600P (2,4 GHz, up to 3,3 GHz, 2 MB cache).
+- 16 GB SDRAM DDR4-2133 (2 x 8 GB) memory.
+- Graphic card AMD Radeon™ R7 M440 (DDR3 2 GB dedicated).  
 
-La computazione dell'addestramento del modello di apprendimento, data una singola configurazione di iperparametri, impiega mediamente 1 minuto e mezzo.
-## Descrizione dei notebook
-All'interno di questo repository sono caricati diversi jupyter notebook. Ognuno di essi fa riferimento a una specifica parte del lavoro e/o una specifica vista del dataset su cui sono stati svolti degli esperimenti. In particolar modo:
-- experiments\_all-feature.ipynb contiene gli esperimenti svolti sul dataset originario.
-- first\_experiments\_20feature.ipynb contiene i primi esperimenti svolti durante l'esperienza del tirocinio. Il notebook è stato inserito con il solo scopo di illustrare i primi passi del mio lavoro e presenta pertanto esperimenti eseguiti con griglie più semplici e in ordine sparso. Sconsiglio l'esecuzione di questo notebook sui propri dispositivi.
-- experiments\_20feature.ipynb contiene gli esperimenti più significativi sulla vista del dataset ottenuta considerando 20 variabili scelte dai medici legali.
-- experiments\_13feature.ipynb contiene gli esperimenti più significativi sulla vista del dataset ottenuta considerando 13 variabili scelte dai medici legali.
-- experiments\_datasetWithFeatureExtraction.ipynb contiene gli esperimenti svolti su una vista del dataset costruita aggregando le variabili delle lesioni per zone sensate, utilizzando una tecnica di riduzione della dimensionalità come PCA.
-- experiments\_dxsx.ipynb contiene gli esperimenti con le viste del dataset costruite a partire da una suddivisione delle lesioni sulla parte destra o sinistra del corpo.
-- experiments\_umap.ipynb contiene gli esperimenti in cui viene utilizzata UMAP come tecnica di riduzione della dimensionalità.
-- data\_augmentation.ipynb illustra due tecniche per sovracampionare il dataset al fine di migliorare l'accuratezza del modello.
-- datavis.ipynb illustra una possibile visualizzazione del dataset.
-- exploratory\_analysis\_for\_defuzzification.ipynb presenta l'analisi esplorativa svolta al fine di defuzzificare in modo sensato i risultati.
-- defuzzification\_20feature.ipynb contiene la defuzzificazione dei risultati del miglior esperimento sulla vista ottenuta considerando 20 variabili scelte dai medici legali.  
+The computation of the training of the learning model, given a single configuration of hyperparameters, takes on average 2 minutes.
+## Notebook descriptions
+In this repository there are several jupyter notebooks. Each of them refers to a specific part of the project and / or a specific view of the dataset on which the experiments were performed. Particularly:
+- experiments\_all-feature.ipynb contains the experiments performed on the original dataset.
+- first\_experiments\_20feature.ipynb contains the first experiments performed during the internship experience. The notebook has been inserted with the sole purpose of illustrating the first steps of my work and therefore presents experiments performed with simpler grids and in no particular order. I do not recommend running this notebook on your own devices.
+- experiments\_20feature.ipynb contains the most significant experiments on the view of the dataset obtained by considering 20 lesion variables chosen by the coroners.
+- experiments\_13feature.ipynb contains the most significant experiments on the view of the dataset obtained by considering 13 lesion variables chosen by the coroners..
+- experiments\_datasetWithFeatureExtraction.ipynb contains the experiments performed on a dataset view constructed by aggregating the lesion variables by sensible areas, using a dimensionality reduction technique such as PCA.
+- experiments\_dxsx.ipynb contains experiments with dataset views constructed from a subdivision of lesions on the right or left side of the body.
+- experiments\_umap.ipynb contains experiments where UMAP is used as a dimensionality reduction technique.
+- data\_augmentation.ipynb illustrates two techniques for oversampling the dataset in order to improve model accuracy.
+- datavis.ipynb presents a possible data visualization.
+- exploratory\_analysis\_for\_defuzzification.ipynb presents the exploratory analysis performed in order to defuzzy the results properly. 
+- defuzzification\_20feature.ipynb contains the best defuzzificated results on the view of the dataset obtained by considering 20 lesion variables chosen by the coroners.  
 
-Nel caso foste interessati esclusivamente alla lettura dei migliori risultati del mio lavoro, congiuntamente alle variabili, le tecniche, gli operatori e i parametri del modello di apprendimento per ottenerli, consiglio la visione del notebook best\_result.ipynb.
-## Materiale extra
-Alcune slide di presentazione del progetto sono disponibili [qui](https://docs.google.com/presentation/d/1GH-OsCUFrqLLk-CFYR8U-zfByxMaecM4rlz58dKerbE/edit?usp=sharing).
+If you are interested only in knowing the best results of my work, together with the variables, techniques, operators and parameters of the learning model to obtain them, I recommend reading the notebook best\_result.ipynb.
+## Additional materials
+Google Slides presentation is available [here](https://docs.google.com/presentation/d/1GH-OsCUFrqLLk-CFYR8U-zfByxMaecM4rlz58dKerbE/edit?usp=sharing)(ITALIAN ONLY).
