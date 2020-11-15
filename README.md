@@ -1,6 +1,7 @@
 # Data-driven-induction-of-fuzzy-sets-in-forensics
 Bachelor's Thesis in Computer Science,  
 Advisor: Prof. Dario Malchiodi,  
+Co-advisor: Dr. Anna Maria Zanaboni,  
 University of Milan, 2020.
 ## Overview
 The scope of this repository is to illustrate the work behind my Bachelor's Thesis in Computer Science.  
